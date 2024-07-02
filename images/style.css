@@ -11,9 +11,8 @@
 }
 .fisrt-sec{
     background-image: url(images/Rectangle\ 14.png);
-    background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;
+    background-size: cover;
 }
 .front-img{
     width: 848.2px;
@@ -33,4 +32,9 @@
 .main-contact{
     border-top-right-radius: 40px !important;
     border-bottom-right-radius: 40px !important;
+}
+@media screen and (max-width:768px){
+    .fisrt-sec{
+        width: 100%;
+    }
 }
